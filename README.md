@@ -7,7 +7,7 @@ In order to remove the driver from your system open a terminal in the directory 
 ### Ubuntu install / Build dependencies (Kali)
 ```
 sudo apt-get update
-sudo apt-get install dkms git build-essential libelf-dev linux-headers-`uname -r` 
+sudo apt-get install dkms git build-essential libelf-dev linux-headers-`uname -r` -y
 git clone -b v5.6.4.2 https://github.com/Vertabreak/rtl8812au.git
 cd rtl*
 sudo make dkms_install
