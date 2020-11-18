@@ -4,7 +4,7 @@ In order to remove the driver from your system open a terminal in the directory 
  sudo make dkms_remove
 ```
 
-### Ubuntu install / Build dependencies (Kali)
+### Ubuntu install / Build dependencies
 ```
 sudo apt-get update
 sudo apt-get install dkms git build-essential libelf-dev linux-headers-`uname -r` -y
